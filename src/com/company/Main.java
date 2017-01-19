@@ -11,5 +11,16 @@ public class Main {
          */
 
         //TODO: write code below...
+
+        Jasmine newJasmine = new Jasmine ();
+
+        newJasmine.setAge(27);
+
+        System.out.println("Hello my name is "+ newJasmine.getFirstName()+" "+ newJasmine.getLastName() +" and I am "
+                +newJasmine.getAge()+" years old");
+
+
+
     }
+
 }
