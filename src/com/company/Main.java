@@ -5,24 +5,14 @@ public class Main {
     public static void main(String[] args) {
         /**
          * CODING ASSIGNMENT
-         * Write code so that the console output displays the below:
-         * "My name is Jasmine Garcia and I am 27 years old"
-         * NOTE- there is a new Jasmine class, I added it just now, and it has the methods you need to generate that output
+         * Initialize a new String array.
+         * How to initialize a string array:    http://stackoverflow.com/questions/2564298/java-how-to-initialize-string
+         * Give the string array values of "Corey", "Diana", "Nathan", "Rocky", and "Ellie"
+         * Then generate a for loop, loop through each name in the string array, and print the name.
+         * For loop example:    http://stackoverflow.com/questions/6707695/iterate-through-string-array-in-java
          */
 
         //TODO: write code below...
-
-        Jasmine newJasmine = new Jasmine ();
-
-        newJasmine.setAge(27);
-
-        System.out.println("Hello my name is "+ newJasmine.getFirstName()+" "+ newJasmine.getLastName() +" and I am "
-                +newJasmine.getAge()+" years old");
-
-
-        //test commit and push
-
-
 
 
 
