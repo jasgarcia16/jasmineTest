@@ -19,14 +19,7 @@ public class Main {
 
         for (int x=0; x<familyNames.length;x++) {
             System.out.println(familyNames[x]);
-        };
-
-
-
-
-
-
-
+        }
 
 
     }
