@@ -15,6 +15,13 @@ public class Main {
         //TODO: write code below...
 
 
+        String [] familyNames= {"Corey", "Diana", "Nathan", "Rocky", "Ellie"};
+
+        for (int x=0; x<familyNames.length;x++) {
+            System.out.println(familyNames[x]);
+        };
+
+
 
 
 
