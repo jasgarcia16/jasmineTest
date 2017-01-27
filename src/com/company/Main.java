@@ -14,6 +14,8 @@ public class Main {
 
         //TODO: write code below...
 
+        //I don't understand if I am doing the commit changes correctly...
+
 
         String [] familyNames= {"Corey", "Diana", "Nathan", "Rocky", "Ellie"};
 
