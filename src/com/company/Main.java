@@ -1,5 +1,7 @@
 package com.company;
 
+import static com.company.JasmineMath.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +20,11 @@ public class Main {
          */
 
         //TODO: write code below...
+
+       JasmineMath newJasmineMath= new JasmineMath();
+
+        System.out.println(newJasmineMath.add(5,7));
+        System.out.println(newJasmineMath.subtract(9,8));
 
     }
 
