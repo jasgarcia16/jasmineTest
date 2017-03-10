@@ -25,6 +25,7 @@ public class Main {
 
         System.out.println(newJasmineMath.add(5,7));
         System.out.println(newJasmineMath.subtract(9,8));
+        System.out.print("");
 
     }
 
