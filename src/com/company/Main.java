@@ -38,6 +38,7 @@ public class Main {
         System.out.println("The largest number in the list is: " + largestNumber);
         System.out.println("The smallest number in the list is: " + smallestNumber);
 
+        System.out.print("Test check-in to see if you can pull the latest changes from github");
 
     }
 
