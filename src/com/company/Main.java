@@ -33,8 +33,10 @@ public class Main {
 
         JasmineMath jasmineMath = new JasmineMath();
         Integer largestNumber = jasmineMath.findBiggestNumberIn(numbers);
+        Integer smallestNumber = jasmineMath.findSmallestNumberIn(numbers);
 
-        System.out.print("The largest number in the list is: " + largestNumber);
+        System.out.println("The largest number in the list is: " + largestNumber);
+        System.out.println("The smallest number in the list is: " + smallestNumber);
 
 
     }

@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,13 +9,41 @@ import java.util.List;
 public class JasmineMath {
 
 
-    public Integer add(Integer a, Integer b) {return a + b;}
-
-    public Integer subtract(Integer a, Integer b) {return a - b;}
-
-    public Integer findBiggestNumberIn(List<Integer> numbers){
-        //TODO: fill out the method to look through the numbers List and find the largest number
-        return 0;
+    public Integer add(Integer a, Integer b) {
+        return a + b;
     }
 
+    public Integer subtract(Integer a, Integer b) {
+        return a - b;
+    }
+
+    public Integer findBiggestNumberIn(List<Integer> numbers) {
+
+
+        int x = 0;
+        int max = numbers.get(x);
+
+
+        while (++x < numbers.size())
+            if (numbers.get(x) > max)
+                max = numbers.get(x);
+
+        return max;
+    }
+
+    public Integer findSmallestNumberIn(List<Integer> numbers) {
+
+        int y=0;
+        int min = numbers.get(y);
+
+        while (++y <numbers.size())
+            if (numbers.get(y) < min)
+                min = numbers.get(y);
+        return min;
+
+    }
 }
+
+
+
+
