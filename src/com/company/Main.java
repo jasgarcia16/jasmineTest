@@ -10,36 +10,23 @@ public class Main {
     public static void main(String[] args) {
         /**
          * CODING ASSIGNMENT
-         * A new method has been created in tbe JasmineMath class
-         * The new method name is called "findBiggestNumberIn"
-         * The method's body is empty
-         * You job is to fill out the method implementation
-         * The method takes in a list of numbers (already created called "numbers")
-         * The method will need to find the largest number in the "numbers" list and return it
+         * A new class has been created called "JasmineStringUtil"
+         * In JasmineStringUtil, a new method has been created called "reverseString()"
+         * Implement the method details so that it reverses the passed in string
+         * For example: if you pass in the string "soccer", the method should return "reccos"
+         * Also, do not use any available libraries/methods that reverses a string for you, implement the method yourself
+         * Example, do not use something like StringUtil.reverse()
          */
 
         //TODO: write code below...
 
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(1);
-        numbers.add(3);
-        numbers.add(2);
-        numbers.add(6);
-        numbers.add(7);
-        numbers.add(16);
-        numbers.add(11);
-        numbers.add(12);
-        numbers.add(15);
+        String str = "soccer";
+        String reversedStr = null;
 
-        JasmineMath jasmineMath = new JasmineMath();
-        Integer largestNumber = jasmineMath.findBiggestNumberIn(numbers);
-        Integer smallestNumber = jasmineMath.findSmallestNumberIn(numbers);
+        JasmineStringUtil jasmineStringUtil = new JasmineStringUtil();
+        reversedStr = jasmineStringUtil.reverseString(str);
 
-        System.out.println("The largest number in the list is: " + largestNumber);
-        System.out.println("The smallest number in the list is: " + smallestNumber);
-
-        System.out.print("Test check-in to see if you can pull the latest changes from github");
-
+        System.out.println("The word " + str + " has been reversed to " + reversedStr);
     }
 
 }
